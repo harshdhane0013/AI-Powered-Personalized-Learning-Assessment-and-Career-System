@@ -37,13 +37,13 @@ app = Flask(__name__, static_folder='.', static_url_path='')
 app.secret_key = secrets.token_hex(32)
 
 # ── API KEYS ──────────────────────────────────────────────────────────────────
-OPENROUTER_API_KEY = "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"
-YOUTUBE_API_KEY    = "AIzaSyDlaFF4xnX3_gmT8GPoE6gMPnyeIUis_xM"
+OPENROUTER_API_KEY = "sk-or-v1-API-KEY"
+YOUTUBE_API_KEY    = "YOUTUBE-KEY"
 
 SMTP_HOST     = "smtp.gmail.com"
 SMTP_PORT     = 587
-SMTP_USER     = "harshvardhandhane13@gmail.com"
-SMTP_PASSWORD = "ipde veha zmzs hhlb"
+SMTP_USER     = "YOUREMAIL13@gmail.com"
+SMTP_PASSWORD = "password key"
 EMAIL_FROM    = "LearnPath <noreply@learnpath.ai>"
 
 # ── Models (free fallback chain) ──────────────────────────────────────────────
